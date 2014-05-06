@@ -7,31 +7,24 @@
 Pod::Spec.new do |s|
   s.name             = "RNPlaceholderDataSources"
   s.version          = "0.1.0"
-  s.summary          = "A short description of RNPlaceholderDataSources."
-  s.description      = <<-DESC
-                       An optional longer description of RNPlaceholderDataSources
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "http://EXAMPLE/NAME"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "A placeholder UITableViewDataSource/UICollectionViewDataSource for use in building quick app mockups"
+  s.homepage         = "https://github.com/rnorth/RNPlaceholderDataSources"
   s.license          = 'MIT'
   s.author           = { "Richard North" => "rich.north@gmail.com" }
-  s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/EXAMPLE'
+  s.source           = { :git => "https://github.com/rnorth/RNPlaceholderDataSources.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/whichrich'
 
-  # s.platform     = :ios, '5.0'
+  s.platform     = :ios, '6.0'
   # s.ios.deployment_target = '5.0'
   # s.osx.deployment_target = '10.7'
   s.requires_arc = true
 
-  s.source_files = 'Classes'
-  s.resources = 'Assets/*.png'
+  s.source_files = 'Classes/**/*.{h,m}'
+  s.resources = 'data/**/*.{json,js,jpg,png}'
 
   s.ios.exclude_files = 'Classes/osx'
   s.osx.exclude_files = 'Classes/ios'
   # s.public_header_files = 'Classes/**/*.h'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.dependency 'JSONKit', '~> 1.4'
+  # s.dependency 'AFNetworking', '2.2.2'
 end
