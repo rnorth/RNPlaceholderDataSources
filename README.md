@@ -9,12 +9,16 @@ Provides a UITableViewDataSource and UICollectionViewDataSource implementation t
 
 To run the example project; clone the repo, and run `pod install` from the Example directory first.
 
+![](https://gist.githubusercontent.com/rnorth/4ef405c4c8fa4c6c2466/raw/ec508b278c6cac8e4a3d914a94baab9e3ecf82a4/placeholders.gif)
+
 ## Requirements
 
 ## Installation
 
-RNPlaceholderDataSources is available through [CocoaPods](http://cocoapods.org), to install
-it simply add the following line to your Podfile:
+### Not released as a cocoapod yet
+
+~~RNPlaceholderDataSources is available through [CocoaPods](http://cocoapods.org), to install
+it simply add the following line to your Podfile:~~
 
     pod "RNPlaceholderDataSources"
 
